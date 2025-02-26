@@ -1,6 +1,7 @@
 class Solution {
 public:
     int sumOfGoodNumbers(vector<int>& nums, int k) {
+        // hi
         int sum=0;
         int n=nums.size();
         if(nums[0]>nums[0+k]) sum+=nums[0];
