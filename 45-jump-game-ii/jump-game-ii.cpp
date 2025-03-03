@@ -1,6 +1,7 @@
 class Solution {
 public:
     int jump(vector<int>& nums) {
+        // vitthal
       int l=0;
       int r=0;
       int jump=0;
