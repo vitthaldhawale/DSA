@@ -10,6 +10,7 @@ int func(vector<int>& arr,int mid)
     return cnt;
 }
     int hIndex(vector<int>& citations) {
+        // vitthal
         int cnt=0;
         int n=citations.size();
         int s=0;
