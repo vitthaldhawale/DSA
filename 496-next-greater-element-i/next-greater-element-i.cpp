@@ -12,14 +12,8 @@ public:
             {
                 st.pop();
             }
-            if(st.empty())
-            {
-                map[nums2[i]]=-1;
-            }
-            else
-            {
-                map[nums2[i]]=st.top();
-            }
+            if(st.empty()) map[nums2[i]]=-1;
+            else map[nums2[i]]=st.top();
             st.push(nums2[i]);
         }
        for(int num : nums1)
