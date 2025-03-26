@@ -19,8 +19,7 @@ public:
             }
         }
         sort(ele.begin(),ele.end());
-        int mid=ele.size()/2;
-        int target=ele[mid];
+        int target=ele[ele.size()/2];
         int ans=0;
         for(int i=0;i<ele.size();i++)
         {
