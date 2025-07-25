@@ -40,6 +40,7 @@ public:
                 map[ans[r]]=0;
                 sum1+=ans[r];
             }
+            
         }
         return sum1;
     }
