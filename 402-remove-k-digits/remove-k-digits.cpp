@@ -21,7 +21,7 @@ public:
         string ans = "";
         while(!st.empty())
         {
-            ans += st.top();
+            ans.push_back(st.top());
             st.pop();
         }
         while(ans.size()!=0 && ans.back()=='0') ans.pop_back();
