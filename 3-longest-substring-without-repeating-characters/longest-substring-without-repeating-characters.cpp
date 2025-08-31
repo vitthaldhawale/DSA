@@ -12,8 +12,7 @@ public:
           {
             l = st[s[r]] + 1;
           }
-          len = r-l+1;
-          ans = max(ans,len);
+          ans = max(ans,(r-l+1));
           st[s[r]] = r;
           r++;
         }
