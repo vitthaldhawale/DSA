@@ -6,13 +6,14 @@ public:
         int maxconsonent = 0;
         for(int i=0;i<s.size();i++)
         {
-            map[s[i]-'a']++;
             if(s[i]=='a' || s[i]=='e'|| s[i]=='i'|| s[i]=='o'|| s[i]=='u')
             {
+                map[s[i]-'a']++;
                 maxvowel = max(maxvowel,map[s[i]-'a']);
             }
             else
             {
+                map[s[i]-'a']++;
                 maxconsonent = max(maxconsonent,map[s[i]-'a']);
             }
         }
