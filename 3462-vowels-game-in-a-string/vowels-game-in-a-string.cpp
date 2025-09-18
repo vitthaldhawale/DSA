@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool doesAliceWin(string s) {
-        int count = 0;
+        
         for(int i = 0;i<s.size();i++){
             if(vowel(s[i])) return true;
         }
